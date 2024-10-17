@@ -1,12 +1,12 @@
 import { useState } from 'react';
 import styled from 'styled-components';
-
-import { formatCurrency } from '../../utils/helpers';
+import { HiPencil, HiSquare2Stack, HiTrash } from 'react-icons/hi2';
 
 import CreateCabinForm from './CreateCabinForm';
 import { useDeleteCabin } from './useDeleteCabin';
-import { HiPencil, HiSquare2Stack, HiTrash } from 'react-icons/hi2';
 import { useCreateCabin } from './useCreateCabin';
+
+import { formatCurrency } from '../../utils/helpers';
 
 const TableRow = styled.div`
   display: grid;
